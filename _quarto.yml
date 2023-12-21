@@ -19,7 +19,7 @@ website:
           - taller2.qmd
       - text: "Apuntes"
         menu:
-          - href: www.github.com/oflora/geobotanica
+          - href: https://oflora.github.io/geobotanica_apuntes
           - text: "Geobotánica"
       - about.qmd
     right:
