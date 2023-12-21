@@ -5,8 +5,22 @@ date: "2023-12-18"
 categories: [news]
 ---
 
+```{r}
+library(leaflet)
+library(dplyr)
+```
+
 This is the first post in a Quarto blog. Welcome!
 
 ![](thumbnail.jpg)
 
 Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+
+
+```{r}
+m <- leaflet() %>%
+    addTiles() %>%  # Add default OpenStreetMap map tiles
+    addProviderTiles(providers$Thunderforest.Outdoors) %>%
+    addMiniMap()
+m  # Print the map
+```

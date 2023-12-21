@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: sdocss
 
 website:
   title: "website"
@@ -26,15 +26,17 @@ website:
  #       href: https://mastodon.com
     sidebar:
       contents: auto
-  repo-url: https://gitlab.com/oflora/geobotanica/
+  repo-url: https://github.com/oflora/geobotanica/
   repo-actions: [edit, issue]
-  page-footer: "No seas un saco de mierda individualista. Ubuntu"
+  page-footer: "No seas un saco de mierda individualista."
 
 lang: es
 
 format:
   html:
-    theme: minty
+    theme: 
+      light: minty
+      dark: darkly
     css: styles.css
     toc: true
 
