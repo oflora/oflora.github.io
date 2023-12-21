@@ -21,6 +21,7 @@ website:
         menu:
           - href: https://oflora.github.io/geobotanica_apuntes
           - text: "Geobotánica"
+      - posts.qmd
       - about.qmd
     right:
       - icon: telegram

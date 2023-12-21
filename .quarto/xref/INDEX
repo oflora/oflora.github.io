@@ -16,5 +16,14 @@
   },
   "mapas.qmd": {
     "mapas.html": "f4e19960"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "25fc5206"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "1f30fab8"
+  },
+  "posts.qmd": {
+    "posts.html": "8ff8510b"
   }
 }
