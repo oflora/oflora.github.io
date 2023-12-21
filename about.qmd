@@ -1,0 +1,9 @@
+---
+title: "About"
+---
+
+About this site
+
+::: {style="text-align: center; margin-top: 1em"}
+[Matplotlib: Visualization with Python](https://matplotlib.org/){preview-link="true" style="text-align: center"}
+:::

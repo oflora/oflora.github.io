@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: doccs
+
+website:
+  title: "website"
+  navbar:
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: mapas.qmd
+        text: Mapichuelis
+      - href: rutiquis.qmd
+        text: Rutiquis
+      - text: "Talleres"
+        menu: 
+          - taller.qmd
+          - taller2.qmd
+      - text: "Apuntes"
+        menu:
+          - href: www.github.com/oflora/geobotanica
+          - text: "Geobotánica"
+      - about.qmd
+    right:
+      - icon: telegram
+        href: https://mastodon.com
+      - icon: mastodon
+        href: https://mastodon.com
+    sidebar:
+      contents: auto
+  repo-url: https://gitlab.com/oflora/geobotanica/
+  repo-actions: [edit, issue]
+  page-footer: "No seas un saco de mierda individualista. Ubuntu"
+
+lang: es
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    toc: true
+
+
+
