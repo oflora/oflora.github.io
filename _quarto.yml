@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: doccs
 
 website:
   title: "website"
@@ -13,15 +13,11 @@ website:
         text: Mapichuelis
       - href: rutiquis.qmd
         text: Rutiquis
-      - text: "Talleres"
-        menu: 
-          - taller.qmd
-          - taller2.qmd
       - text: "Apuntes"
         menu:
           - href: https://oflora.github.io/geobotanica_apuntes
           - text: "Geobotánica"
-      - posts.qmd
+      - blog.qmd
       - about.qmd
     right:
       - icon: telegram
