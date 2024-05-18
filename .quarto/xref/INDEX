@@ -28,5 +28,11 @@
   },
   "blog.qmd": {
     "blog.html": "0f2dba2f"
+  },
+  "taxa.qmd": {
+    "taxa.html": "75df7601"
+  },
+  "posts/taxa/taxa.qmd": {
+    "taxa.html": "d1cff499"
   }
 }

@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: sdocss
+  output-dir: docs
 
 website:
   title: "website"
@@ -13,7 +13,6 @@ website:
         text: Mapichuelis
       - href: rutiquis.qmd
         text: Rutiquis
-      - text: "Apuntes"
         menu:
           - href: https://oflora.github.io/geobotanica_apuntes
           - text: "Geobotánica"
